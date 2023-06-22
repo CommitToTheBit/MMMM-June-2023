@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>be9b933c-5ba4-4b75-8a03-402244ddb78b</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>558da2db-1cd8-4033-9858-2a5e9328268c</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{059afbad-ff6b-44a2-b399-23bc2482a42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{f529fe65-ede5-4321-b5c9-5a9385d2396f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{f4975539-b864-4273-aaa3-fe56ef605678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LSystems">
+      <UniqueIdentifier>{7c029aef-a104-4f86-8481-dfc903e20eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarchingCubes">
+      <UniqueIdentifier>{2fa8d5ff-41ba-409d-8866-eb6325ef04cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc. Modelling">
+      <UniqueIdentifier>{60b172f8-1be2-47b7-bad2-e00b1eaefc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grammars">
+      <UniqueIdentifier>{fc75f40b-0f4d-49a8-b6d9-4d2a3359a561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grammars\Corpora">
+      <UniqueIdentifier>{701562ca-5953-4d11-9f89-6ed7f0c7bab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc. Rendering">
+      <UniqueIdentifier>{40238b9b-2d65-45a3-9dff-1217399e25f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc. Rendering\Camera Classes">
+      <UniqueIdentifier>{506627cf-6af6-4ad4-be9d-f175a78b5dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc. Gameplay">
+      <UniqueIdentifier>{aea32c18-7af7-410b-ab35-f575c3a51aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\2D Textures">
+      <UniqueIdentifier>{380fecce-d27c-44df-807e-63d5294eca48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\3D Textures">
+      <UniqueIdentifier>{4951c114-e092-4006-bc7a-dc5ee3ea11ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\3D Textures\Vignette">
+      <UniqueIdentifier>{10e715c7-81fb-4ebf-9e17-7ac0945dfc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\3D Textures\Terrain">
+      <UniqueIdentifier>{d732bebb-273b-43cb-8148-950df920e1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\3D Textures\Voronoi">
+      <UniqueIdentifier>{a6ff0abe-3083-4ade-930b-699fd09a681b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\3D Textures\Misc.">
+      <UniqueIdentifier>{d541a606-f68f-4353-a20e-34e8ce492236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\Environment Textures">
+      <UniqueIdentifier>{d5c22115-a8fe-461e-9f38-f61e61b0bac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\2D Textures\Deprecated">
+      <UniqueIdentifier>{3c35f7e7-0108-448b-9972-1c1593a9e400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\Environment Textures\Misc">
+      <UniqueIdentifier>{cee833c4-25ee-413f-8b2c-fa4e238d8425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\Environment Textures\Voronoi">
+      <UniqueIdentifier>{0d2b8095-4177-44d4-88c8-b40f69c83033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\Environment Textures\Pores">
+      <UniqueIdentifier>{42fc146e-0cf0-4ac7-861a-237c60911aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\Compute Shaders">
+      <UniqueIdentifier>{926383f2-99c2-4f2f-82a4-12d4704e64e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadData.h" />
+    <ClInclude Include="modelclass.h">
+      <Filter>Misc. Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Misc. Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Misc. Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Misc. Rendering\Camera Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentCamera.h">
+      <Filter>Misc. Rendering\Camera Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Misc. Modelling</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicNoise.h">
+      <Filter>Misc. Modelling</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplexNoise.h">
+      <Filter>Misc. Modelling</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Misc. Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Misc. Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="LDragonCurve.h">
+      <Filter>LSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="LSphinxTiling.h">
+      <Filter>LSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="LBloodVessel.h">
+      <Filter>LSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryWorld.h">
+      <Filter>Misc. Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Architecture.h">
+      <Filter>Misc. Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryEngine.h">
+      <Filter>Misc. Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Storylet.h">
+      <Filter>Misc. Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="LDeterministicBloodVessel.h">
+      <Filter>LSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="LPenroseP3.h">
+      <Filter>LSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="MarchingCubes.h">
+      <Filter>MarchingCubes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hex.h">
+      <Filter>MarchingCubes</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>MarchingCubes</Filter>
+    </ClInclude>
+    <ClInclude Include="LSystem.h">
+      <Filter>LSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar.h">
+      <Filter>Grammars</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Misc. Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="PheremoneShader.h">
+      <Filter>Misc. Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>Misc. Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Misc. Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Misc. Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Misc. Rendering\Camera Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentCamera.cpp">
+      <Filter>Misc. Rendering\Camera Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Misc. Modelling</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicNoise.cpp">
+      <Filter>Misc. Modelling</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplexNoise.cpp">
+      <Filter>Misc. Modelling</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Misc. Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Misc. Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="LDragonCurve.cpp">
+      <Filter>LSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="LSphinxTiling.cpp">
+      <Filter>LSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="LBloodVessel.cpp">
+      <Filter>LSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Architecture.cpp">
+      <Filter>Misc. Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryEngine.cpp">
+      <Filter>Misc. Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryWorld.cpp">
+      <Filter>Misc. Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Storylet.cpp">
+      <Filter>Misc. Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="LDeterministicBloodVessel.cpp">
+      <Filter>LSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="LPenroseP3.cpp">
+      <Filter>LSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="MarchingCubes.cpp">
+      <Filter>MarchingCubes</Filter>
+    </ClCompile>
+    <ClCompile Include="Hex.cpp">
+      <Filter>MarchingCubes</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>MarchingCubes</Filter>
+    </ClCompile>
+    <ClCompile Include="LSystem.cpp">
+      <Filter>LSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar.cpp">
+      <Filter>Grammars</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Misc. Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="PheremoneShader.cpp">
+      <Filter>Misc. Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SegoeUI_18.spritefont">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Storylets.json">
+      <Filter>Misc. Gameplay</Filter>
+    </None>
+    <None Include="ForenameCorpus.json">
+      <Filter>Grammars\Corpora</Filter>
+    </None>
+    <None Include="MiscCorpus.json">
+      <Filter>Grammars\Corpora</Filter>
+    </None>
+    <None Include="NamingConventionCorpus.json">
+      <Filter>Grammars\Corpora</Filter>
+    </None>
+    <None Include="PatronymicCorpus.json">
+      <Filter>Grammars\Corpora</Filter>
+    </None>
+    <None Include="PronounCorpus.json">
+      <Filter>Grammars\Corpora</Filter>
+    </None>
+    <None Include="SurnameCorpus.json">
+      <Filter>Grammars\Corpora</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="sample_nm.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="brine_texture.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="EvilDrone_Diff.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="glass_texture.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Stylized_Stone_Floor_005_normal.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Specimen-Jar-_1-Normal.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Stylized_Stone_Floor_005_basecolor.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="LocationMarker_001.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="LocationMarker_002.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="manhattan_voronoi_3ps.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Voronoi</Filter>
+    </FxCompile>
+    <FxCompile Include="euclidean_voronoi_3ps.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Voronoi</Filter>
+    </FxCompile>
+    <FxCompile Include="voronoi_terrain_3ps_001.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="hex_vignette_ps_001.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="hex_vignette_ps_002.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="hex_vignette_ps_003.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="hex_vignette_ps_004.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="wireframe_3ps.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Misc.</Filter>
+    </FxCompile>
+    <FxCompile Include="vignette_ps.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="vignette_ps_001.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="vignette_ps_002.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="vignette_ps_003.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Vignette</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_coordinates_3ps.hlsl">
+      <Filter>Assets\Shaders\3D Textures\Misc.</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_3vs.hlsl">
+      <Filter>Assets\Shaders\3D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="glass_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="glass_vs.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_euclidean_voronoi.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_french_voronoi.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_manhattan_voronoi.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_regular_quad.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="pores.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="pores_nm.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="refraction_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="refraction_vs.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox_pores.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox_vs.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="specimen_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="specimen_vs.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="spherical_pores.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="spherical_pores_nm.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_irregular_hex.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_irregular_quad.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_regular_hex.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_regular_quad.hlsl">
+      <Filter>Assets\Shaders\2D Textures\Deprecated</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_vs.hlsl">
+      <Filter>Assets\Shaders\2D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="neutral_vs.hlsl">
+      <Filter>Assets\Shaders\2D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="neutral_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="light_3vs.hlsl">
+      <Filter>Assets\Shaders\3D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="light_3ps.hlsl">
+      <Filter>Assets\Shaders\3D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_evs.hlsl">
+      <Filter>Assets\Shaders\Environment Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_coordinates_eps.hlsl">
+      <Filter>Assets\Shaders\Environment Textures\Misc</Filter>
+    </FxCompile>
+    <FxCompile Include="euclidean_voronoi_eps.hlsl">
+      <Filter>Assets\Shaders\Environment Textures\Voronoi</Filter>
+    </FxCompile>
+    <FxCompile Include="manhattan_voronoi_eps.hlsl">
+      <Filter>Assets\Shaders\Environment Textures\Voronoi</Filter>
+    </FxCompile>
+    <FxCompile Include="light_vs.hlsl">
+      <Filter>Assets\Shaders\2D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="light_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="normal_ps.hlsl">
+      <Filter>Assets\Shaders\2D Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="light_evs.hlsl">
+      <Filter>Assets\Shaders\Environment Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="euclidean_voronoi_light_eps.hlsl">
+      <Filter>Assets\Shaders\Environment Textures\Voronoi</Filter>
+    </FxCompile>
+    <FxCompile Include="irregular_hexes_eps.hlsl">
+      <Filter>Assets\Shaders\Environment Textures\Pores</Filter>
+    </FxCompile>
+    <FxCompile Include="pores_001_eps.hlsl">
+      <Filter>Assets\Shaders\Environment Textures\Pores</Filter>
+    </FxCompile>
+    <FxCompile Include="slime_pheremone_cs.hlsl">
+      <Filter>Assets\Shaders\Compute Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="slime_agent_cs.hlsl">
+      <Filter>Assets\Shaders\Compute Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

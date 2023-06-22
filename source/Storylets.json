@@ -1,0 +1,82 @@
+{
+  "passenger embarks": {
+    "Beginning": {
+      "Axiom": "{ARRIVAL SENTENCE}. {*PREFERRED NAME} offers fair payment for passage.",
+      "Causes": {
+        "MaxPassengers": 3,
+        "ActiveIsPassenger": false
+      }
+    },
+    "Middle": [
+      {
+        "Axiom": "accept {{*GENDER} POSSESSIVE DETERMINER} coin...",
+        "Causes": {
+          "ActiveIsPassenger": false
+        },
+        "End": [
+          {
+            "Axiom": "you extend your palm, and welcome the {*ARCHETYPE} aboard.",
+            "Causes": {
+              "ActiveIsPassenger": false
+            },
+            "Effects": {
+              "ActiveEmbarks": true
+            }
+          }
+        ]
+      },
+      {
+        "Axiom": "turn {{*GENDER} OBJECT PRONOUN} away...",
+        "Causes": {
+          "ActiveIsPassenger": false
+        }
+      }
+    ],
+    "End": {
+      "Axiom": "you carry on, leaving poor {*PREFERRED NAME} by the wayside.",
+      "Causes": {
+        "ActiveIsPassenger": false
+      }
+    }
+  },
+  "passenger disembarks": {
+    "Beginning": {
+      "Axiom": "{ARRIVAL SENTENCE}. {HABITAT SENTENCE}. {*PREFERRED NAME} disembarks, thanking you {THANKING ADVERB}.",
+      "Causes": {
+        "MinPassengers": 2,
+        "ActiveIsPassenger": true
+      },
+      "Effects": {
+        "ActiveDisembarks": true
+      }
+    },
+    "Middle": [
+      {
+        "Axiom": "accept the gratitude, {THANKING ADVERB}..."
+      },
+      {
+        "Axiom": "remain mute ({THANKING ADVERB})..."
+      }
+    ],
+    "End": {
+      "Axiom": "Your {WAGON NOUN} {WAGON ROLLS} ever onward..."
+    }
+  },
+  "are we there yet": {
+    "Beginning": {
+      "Axiom": "The {WAGON DESCRIPTION} passes {{SUIT} LANDMARK}. {*PREFERRED NAME} asks if you ''are there yet.''",
+      "Causes": {
+        "MinPassengers": 2,
+        "ActiveIsPassenger": true
+      }
+    },
+    "Middle": [
+      {
+        "Axiom": "''No.''"
+      }
+    ],
+    "End": {
+      "Axiom": "{*{*GENDER} SUBJECT PRONOUN} goes quiet."
+    }
+  }
+}

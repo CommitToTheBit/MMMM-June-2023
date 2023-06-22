@@ -1,0 +1,73 @@
+{
+  "{?{?GENDER} TITLE} {?FULL NAME}": {
+    "productions": [
+      "TITLED NAME"
+    ]
+  },
+  "": {
+    "productions": [
+      "MASCULINE TITLE",
+      "FEMININE TITLE",
+      "NEUTER TITLE"
+    ],
+    "weight":  0.1
+  },
+  "M.": {
+    "productions": [
+      "MASCULINE TITLE"
+    ]
+  },
+  "Mme.": {
+    "productions": [
+      "FEMININE TITLE"
+    ]
+  },
+  "Mlle.": {
+    "productions": [
+      "FEMININE TITLE"
+    ]
+  },
+  "Dr.": {
+    "productions": [
+      "MASCULINE TITLE",
+      "FEMININE TITLE",
+      "NEUTER TITLE"
+    ],
+    "weight": 0.001
+  },
+  "Baron": {
+    "productions": [
+      "MASCULINE TITLE"
+    ],
+    "weight": 0.001
+  },
+  "Baroness": {
+    "productions": [
+      "FEMININE TITLE"
+    ],
+    "weight": 0.001
+  },
+  "{?{?GENDER} FORENAME} {?{?GENDER} PATRONYMIC} {?SURNAME}": {
+    "productions": [
+      "FULL NAME"
+    ]
+  },
+  "{?{?GENDER} TITLE} {?SURNAME}": {
+    "productions": [
+      "PREFERRED NAME"
+    ]
+  },
+  "{?{?GENDER} FORENAME} {?{?GENDER} PATRONYMIC}": {
+    "productions": [
+      "PREFERRED NAME",
+      "FORMAL NAME"
+    ],
+    "weight": 10
+  },
+  "{?{?GENDER} FORENAME}": {
+    "productions": [
+      "PREFERRED NAME",
+      "INFORMAL NAME"
+    ]
+  }
+}

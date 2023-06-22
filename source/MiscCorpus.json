@@ -1,0 +1,570 @@
+{
+  "the {?ARCHETYPE}": {
+    "productions": [
+      "PARTY MEMBER"
+    ]
+  },
+  "{?FULL NAME}": {
+    "productions": [
+      "PARTY MEMBER"
+    ]
+  },
+  "{?PREFERRED NAME}": {
+    "productions": [
+      "PARTY MEMBER"
+    ]
+  },
+  "you stop": {
+    "productions": [
+      "ARRIVAL SENTENCE"
+    ]
+  },
+  "here is {{SUIT} LANDMARK}": {
+    "productions": [
+      "ARRIVAL SENTENCE"
+    ]
+  },
+  "and now, you reach {{SUIT} LANDMARK}": {
+    "productions": [
+      "ARRIVAL SENTENCE"
+    ]
+  },
+  "you arrive at {{SUIT} LANDMARK}": {
+    "productions": [
+      "ARRIVAL SENTENCE"
+    ]
+  },
+  "a {SALT ADJECTIVE} {SALT NOUN}": {
+    "productions": [
+      "SALT LANDMARK"
+    ]
+  },
+  "more of the same": {
+    "productions": [
+      "SALT LANDMARK",
+      "THORN LANDMARK",
+      "MONOLITH LANDMARK"
+    ],
+    "weight": 0.1
+  },
+  "a {{SUIT} ADJECTIVE} *thing*": {
+    "productions": [
+      "MONOLITH ADJECTIVE"
+    ]
+  },
+  "{SALT NOUN}": {
+    "productions": [
+      "SALTINESS"
+    ]
+  },
+  "a mass of {THORN ADJECTIVE} thorns": {
+    "productions": [
+      "THORN LANDMARK"
+    ]
+  },
+  "a gathering of {THORN ADJECTIVE}, {THORN ADJECTIVE} thorns": {
+    "productions": [
+      "THORN LANDMARK"
+    ]
+  },
+  "a {MONOLITH ADJECTIVE} {MONOLITH NOUN}": {
+    "productions": [
+      "MONOLITH LANDMARK"
+    ]
+  },
+  "your {WAGON DESCRIPTION} {WAGON STOPS}": {
+    "productions": [
+      "ARRIVAL SENTENCE"
+    ]
+  },
+  "wagon": {
+    "productions": [
+      "WAGON DESCRIPTION",
+      "WAGON NOUN"
+    ]
+  },
+  "caravan": {
+    "productions": [
+      "WAGON DESCRIPTION",
+      "WAGON NOUN"
+    ]
+  },
+  "vessel": {
+    "productions": [
+      "WAGON DESCRIPTION",
+      "WAGON NOUN"
+    ]
+  },
+  "vehicle": {
+    "productions": [
+      "WAGON DESCRIPTION",
+      "WAGON NOUN"
+    ]
+  },
+  "carriage": {
+    "productions": [
+      "WAGON DESCRIPTION",
+      "WAGON NOUN"
+    ]
+  },
+  "chariot": {
+    "productions": [
+      "WAGON DESCRIPTION",
+      "WAGON NOUN"
+    ]
+  },
+  "{WAGON NEGATIVE} {WAGON NOUN}": {
+    "productions": [
+      "WAGON DESCRIPTION"
+    ]
+  },
+  "{WAGON POSITIVE}-if-{WAGON NEGATIVE} {WAGON NOUN}": {
+    "productions": [
+      "WAGON DESCRIPTION"
+    ]
+  },
+  "quaint": {
+    "productions": [
+      "WAGON POSITIVR"
+    ]
+  },
+  "faithful": {
+    "productions": [
+      "WAGON POSITIVE"
+    ]
+  },
+  "reliable": {
+    "productions": [
+      "WAGON POSITIVE"
+    ]
+  },
+  "shambling": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "quease-inducing": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "cramped": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "battered": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "forsaken": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "damned": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "rusting": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "{PESTILENCE}-riddled": {
+    "productions": [
+      "WAGON NEGATIVE"
+    ]
+  },
+  "lice": {
+    "productions": [
+      "PESTILENCE"
+    ]
+  },
+  "plague": {
+    "productions": [
+      "PESTILENCE"
+    ]
+  },
+  "{WAGON FRICTIONS} to a halt": {
+    "productions": [
+      "WAGON STOPS"
+    ]
+  },
+  "{WAGON ROLLS} in": {
+    "productions": [
+      "WAGON STOPS"
+    ]
+  },
+  "trundles": {
+    "productions": [
+      "WAGON ROLLS"
+    ]
+  },
+  "rumbles": {
+    "productions": [
+      "WAGON ROLLS"
+    ]
+  },
+  "judders": {
+    "productions": [
+      "WAGON ROLLS",
+      "WAGON FRICTIONS"
+    ]
+  },
+  "peters": {
+    "productions": [
+      "WAGON ROLLS"
+    ]
+  },
+  "grinds": {
+    "productions": [
+      "WAGON FRICTIONS"
+    ]
+  },
+  "Euclidean": {
+    "productions": [
+      "THORN ADJECTIVE",
+      "MONOLITH ADJECTIVE"
+    ]
+  },
+  "brutal": {
+    "productions": [
+      "MONOLITH ADJECTIVE",
+      "SALT ADJECTIVE",
+      "BEAUTY ADJECTIVE"
+    ]
+  },
+  "jagged": {
+    "productions": [
+      "THORN ADJECTIVE"
+    ]
+  },
+  "jutting": {
+    "productions": [
+      "THORN ADJECTIVE",
+      "MONOLITH ADJECTIVE"
+    ]
+  },
+  "ancient": {
+    "productions": [
+      "LANDMARK ADJECTIVE",
+      "MONOLITH ADJECTIVE",
+      "SALT ADJECTIVE"
+    ]
+  },
+  "barren": {
+    "productions": [
+      "SALT ADJECTIVE"
+    ]
+  },
+  "salted": {
+    "productions": [
+      "SALT ADJECTIVE"
+    ]
+  },
+  "striking": {
+    "productions": [
+      "THORN ADJECTIVE"
+    ]
+  },
+  "cruel": {
+    "productions": [
+      "THORN ADJECTIVE",
+      "MONOLITH ADJECTIVE",
+      "SALT ADJECTIVE",
+      "BEAUTY ADJECTIVE"
+    ]
+  },
+  "vile": {
+    "productions": [
+      "THORN ADJECTIVE",
+      "BEAUTY ADJECTIVE"
+    ]
+  },
+  "profane": {
+    "productions": [
+      "THORN ADJECTIVE",
+      "BEAUTY ADJECTIVE"
+    ]
+  },
+  "nothingness": {
+    "productions": [
+      "SALT NOUN",
+      "SALTINESS"
+    ]
+  },
+  "emptiness": {
+    "productions": [
+      "SALT NOUN",
+      "SALTINESS"
+    ]
+  },
+  "expanse": {
+    "productions": [
+      "SALT NOUN"
+    ]
+  },
+  "waste": {
+    "productions": [
+      "SALT NOUN"
+    ]
+  },
+  "flatness": {
+    "productions": [
+      "SALT NOUN",
+      "SALTINESS"
+    ]
+  },
+  "plain": {
+    "productions": [
+      "SALT NOUN"
+    ]
+  },
+  "tower to heaven": {
+    "productions": [
+      "MONOLITH NOUN"
+    ]
+  },
+  "monument": {
+    "productions": [
+      "MONOLITH NOUN"
+    ]
+  },
+  "altar": {
+    "productions": [
+      "MONOLITH NOUN"
+    ]
+  },
+  "monolith": {
+    "productions": [
+      "MONOLITH NOUN"
+    ]
+  },
+  "arithmetician": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "polyglot": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "exorcist": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "partisan": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "bureaucrat": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "mercenary": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "drunkard": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "fieldhand": {
+    "productions": [
+      "ARCHETYPE"
+    ]
+  },
+  "sarcastically": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "coyly": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "vaguely": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "begrudgingly": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "emphatically": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "unemphatically": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "whole-heartedly": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "half-heartedly": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "flirtatiously": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "morosely": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "bitterly": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "profusely": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "hurriedly": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "longwindedly": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "cryptically": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "decisively": {
+    "productions": [
+      "THANKING ADVERB"
+    ]
+  },
+  "Before you, {{SUIT} HABITAT DESCRIPTION}": {
+    "productions": [
+      "HABITAT SENTENCE"
+    ]
+  },
+  "{{SUIT} HABITAT DESCRIPTION} can be seen in the distance": {
+    "productions": [
+      "HABITAT SENTENCE"
+    ]
+  },
+  "a procession of merchant {WAGON NOUN}s": {
+    "productions": [
+      "SALT HABITAT DESCRIPTION",
+      "THORN HABITAT DESCRIPTION",
+      "MONOLITH HABITAT DESCRIPTION"
+    ]
+  },
+  "a pit, tunnelled down into the {SALT NOUN}": {
+    "productions": [
+      "SALT HABITAT DESCRIPTION"
+    ]
+  },
+  "a {BUILDING}, carved into the {{SUIT} ADJECTIVE} geometry": {
+    "productions": [
+      "THORN HABITAT DESCRIPTION",
+      "MONOLITH HABITAT DESCRIPTION"
+    ]
+  },
+  "inn": {
+    "productions": [
+      "BUILDING"
+    ]
+  },
+  "bothy": {
+    "productions": [
+      "BUILDING"
+    ]
+  },
+  "homestead": {
+    "productions": [
+      "BUILDING"
+    ]
+  },
+  "villa": {
+    "productions": [
+      "BUILDING"
+    ]
+  },
+  "hovel": {
+    "productions": [
+      "BUILDING"
+    ]
+  },
+  "door": {
+    "productions": [
+      "BUILDING"
+    ]
+  },
+  "church": {
+    "productions": [
+      "BUILDING"
+    ]
+  },
+  "a {BUILDING}, and a nearby {TOWNSHIP}": {
+    "productions": [
+      "SALT HABITAT DESCRIPTION",
+      "THORN HABITAT DESCRIPTION",
+      "MONOLITH HABITAT DESCRIPTION"
+    ]
+  },
+  "hamlet": {
+    "productions": [
+      "TOWNSHIP"
+    ]
+  },
+  "commune": {
+    "productions": [
+      "TOWNSHIP"
+    ]
+  },
+  "township": {
+    "productions": [
+      "TOWNSHIP"
+    ]
+  },
+  "village": {
+    "productions": [
+      "TOWNSHIP"
+    ]
+  },
+  "a {TOWNSHIP}": {
+    "productions": [
+      "SALT HABITAT DESCRIPTION",
+      "THORN HABITAT DESCRIPTION",
+      "MONOLITH HABITAT DESCRIPTION"
+    ]
+  },
+  "a {BUILDING}": {
+    "productions": [
+      "SALT HABITAT DESCRIPTION",
+      "THORN HABITAT DESCRIPTION",
+      "MONOLITH HABITAT DESCRIPTION"
+    ]
+  }
+}
